@@ -32,7 +32,7 @@ textarea{
 
 .row {
   
-  height: 41px;
+  height: 81px;
   background-color: #06AED5;
  
 }
@@ -73,10 +73,29 @@ textarea{
 
 .col-2{
   background-color: yellow;
-  height: 40px;
+  height: 80px;
 }
 .col-8{
   background-color: rgb(43, 43, 34);
-  height: 40px;
+  height: 80px;
 }
-
+.container{
+  width:60%;
+  background-color: #06AED5;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1{
+  height:20px;
+  width:100%;
+  background-color: #06AED5
+}
