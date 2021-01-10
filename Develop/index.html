@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
-     
-      
-    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -30,65 +26,14 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
-   
+      <p id="present" class="lead"></p>
     </header>
-    
-
     <div class="container">
-      <!-- Teblocks go here -->
-      <div class="row">
-        <div class="col-2">8AM</div>
-        <div class="col-8"><input type="text" id="text" name="text_name" style="width: 100%;" /></div>
-        <div class="col-2" > <button class="button button1">SAVE</button></div>
-      </div>
-      <div class="row">
-        <div class="col-2">10AM</div>
-        <div class="col-8"><input type="text" id="text" name="text_name" style="width: 100%;" /></div>
-        <div class="col-2"><button class="button button1">SAVE</button></div>
-      </div>
-      <div class="row">
-        <div class="col-2">12AM</div>
-        <div class="col-8"><input type="text" id="text" name="text_name" style="width: 100%;" /></div>
-        <div class="col-2"><button class="button button1">SAVE</button></div>
-      </div>
-      <div class="row">
-        <div class="col-2">2PM</div>
-        <div class="col-8"><input type="text" id="text" name="text_name" style="width: 100%;" /></div>
-        <div class="col-2"><button class="button button1">SAVE</button></div>
-      </div>
-      <div class="row">
-        <div class="col-2">4PM</div>
-        <div class="col-8"><input type="text" id="text" name="text_name" style="width: 100%;" /></div>
-        <div class="col-2"><button class="button button1">SAVE</button></div>
-      </div>
-      <div class="row">
-        <div class="col-2">6PM</div>
-        <div class="col-8"><input type="text" id="text" name="text_name" style="width: 100%;" /></div>
-        
-        <div class="col-2"><button class="button button1">SAVE</button></div>
-      </div>
-      <div class="row">
-        <div class="col-2">7PM</div>
-        <div class="col-8"><input type="text" id="text" name="text_name" style="width: 100%;" /></div>
-        <div class="col-2"><button class="button button1">SAVE</button></div>
-      </div>
-     
+      <!-- Timeblocks go here -->
+    </div>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <!-- Import Moment.js here -->
-      <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-      <script>
-        $("#currentDay").text(moment().format('llll'))
-        var toDoClose = $('#button');
-         
-          // Gives the button a class called 'checkbox'
-          toDoClose.addClass('checkbox');
-          // Adds a checkmark symbol as its text value
-          toDoClose.text('✓');
-      </script>
-      
-  
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
